@@ -19,10 +19,12 @@ public class Saluda {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String nombre;
+        int edad;
         System.out.println("Intrduzca su nombre:");
         nombre = sc.nextLine();
-        
-        System.out.println("Hola "+nombre);
+        System.out.println("Intriduzca su edad");
+        edad = sc.nextInt();
+        System.out.println("Hola "+nombre+" tienes "+edad+" años");
     }
     
 }
